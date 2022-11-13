@@ -13,6 +13,7 @@ namespace KvFASTER.Services
         private readonly ILogger<SharedFASTERKVService> _logger;
 
         public FasterKV<string, long> CarsFasterKV { get; set; }
+
         public FasterKV<Guid, CarRegistration> CarsCollectionFasterKV { get; set; }
 
         public SharedFASTERKVService(ILogger<SharedFASTERKVService> logger)

@@ -15,6 +15,7 @@ namespace KvFASTER.Models
             return $"[{Model}], going for ${Price:N2}, Status: {CarStatus}, Color: {Color}, Date Registered: {RegisteredDate}";
         }
     }
+
     public enum CarStatus
     {
         Available,
